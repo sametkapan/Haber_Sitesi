@@ -1,0 +1,274 @@
+/* Anasayfa */
+/* AAAAAAA */
+
+.card {
+    width: calc(25% - 20px);
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cards {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(resimler/pure-black-background-y8wp2r83b15xxdi6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-teknoloji {
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards-teknoloji:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-teknoloji img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.teknoloji {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-img {
+    position: relative;
+    height: 200px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cards-teknoloji span {
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+}
+
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Başlık ve içerik arasındaki boşluğu azaltıyoruz */
+}
+
+.card-text h2 {
+    font-size: 18px; /* Başlık fontunu küçültüyoruz */
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px; /* Başlık ve içerik arasındaki boşluğu azaltıyoruz */
+}
+
+.card-text p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-top: 0; /* Üst boşluğu sıfırlıyoruz */
+    margin-bottom: 0; /* Alt boşluğu sıfırlıyoruz */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Metni 3 satırda kısıtlıyoruz */
+    -webkit-box-orient: vertical;
+    height: 75px;
+    max-height: 75px;
+}
+
+.cards-teknoloji .teknoloji {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.baslık {
+    border-left: 8px solid darkcyan;
+    margin-left: 8rem;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+span:hover {
+    padding-left: 20px;
+    background-color: rgb(49, 115, 153);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.element a {
+    color: darkcyan;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: black;
+}
+
+/* habersablonu */
+
+.haber {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.haber-img img {
+    width: 400px;
+    height: 300px;
+}
+
+.habericerik {
+    padding: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.habericerik h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.linkler {
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 15px;
+    transition: 0.4s;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 70px;
+}
+
+/* navbar2 */
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    height: 75px;
+    align-items: center;
+}
+
+.navbar2 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.navbar2 a:hover {
+    border-bottom: 4px inset black;
+}
+
+
+
